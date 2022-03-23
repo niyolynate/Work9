@@ -1,1 +1,27 @@
 print ("name");
+
+
+# Taking kilometers input from the user
+kilometers = float(input("Enter value in kilometers: "))
+
+# conversion factor
+conv_fac = 0.621371
+
+# calculate miles
+miles = kilometers * conv_fac
+print('%0.2f kilometers is equal to %0.2f miles' %(kilometers,miles))
+
+222
+
+# This program adds two numbers
+
+num1 = 1.5
+num2 = 6.3
+
+# Add two numbers
+sum = num1 + num2
+
+# Display the sum
+print('The sum of {0} and {1} is {2}'.format(num1, num2, sum))
+
+
